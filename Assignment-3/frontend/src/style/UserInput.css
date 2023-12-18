@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.userInputContainer{
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    width: 50%;
+    border-radius: 10px;
+    height: 45vh;
+    box-sizing: border-box;
+}
+
+.input-label{
+    font-size: 18px;
+}
+
+.inputBox{
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    font-size: 18px;
+    text-align: center;
+}
+
+.outputShowBtn{
+    background: rgb(215, 25, 57);
+    color: white;
+    margin-top: 25px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.outputShowBtn:hover{
+    background: rgb(24, 170, 227);
+    color: black;
+}
+
+.saveTodbBtn{
+    background: rgb(15, 182, 238);
+    color: white;
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.saveTodbBtn:hover{
+    background: black;
+    color: rgb(244, 18, 56)
+}
+
+.output-div{
+    border: 2px solid;
+    width: 50%;
+    border-radius: 10px;
+    height: 20vh;
+    box-sizing: border-box;
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.output-content{
+    font-size: 20px;
+}

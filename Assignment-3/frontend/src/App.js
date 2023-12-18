@@ -1,10 +1,10 @@
 import './App.css';
-import NumbersInput from './components/NumbersInput';
+import UserInputForm from './components/UserInputForm';
 
 function App() {
   return (
     <div className="App">
-      <NumbersInput />
+      <UserInputForm />
     </div>
   );
 }
