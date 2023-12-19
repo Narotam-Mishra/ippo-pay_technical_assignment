@@ -54,9 +54,9 @@ const UserInputForm = () => {
           <button onClick={handleOutput} className="outputShowBtn">
             Show Output
           </button>
-          <button onClick={saveToDB} className="saveTodbBtn">
+          {result !== null && (<button onClick={saveToDB} className="saveTodbBtn">
             Save output to DB
-          </button>
+          </button>)}
           </div>
         </div>
 
